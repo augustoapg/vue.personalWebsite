@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavigationBar />
+    <AboutMe />
+    <Resume />
+    <Portfolio />
+    <footer>
+      <a href="https://icons8.com/icon/13930/LinkedIn">Icons provided by Icons8</a>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AboutMe from './components/AboutMe.vue'
+import Resume from './components/Resume.vue'
+import Portfolio from './components/Portfolio.vue'
+import Contact from './components/Contact.vue'
+import NavigationBar from './components/NavigationBar.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    NavigationBar,
+    AboutMe,
+    Resume,
+    Portfolio,
+    Contact
   }
 }
 </script>
@@ -21,8 +34,11 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+footer {
+  margin-top: 3em;
 }
 </style>
