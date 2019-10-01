@@ -4,6 +4,7 @@
     <AboutMe />
     <Resume />
     <Portfolio />
+    <Contact />
     <footer>
       <a href="https://icons8.com/icon/13930/LinkedIn">Icons provided by Icons8</a>
     </footer>
