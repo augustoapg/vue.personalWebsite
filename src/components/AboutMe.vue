@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="aboutMe">
-        <h1 class="mx-auto my-0 text-uppercase">Augusto A. P. Goncalez</h1>
+        <h1>Augusto A. P. Goncalez</h1>
         <div class="row about-me">
             <div class="col-md-9">
                 <p class="lead">Currently enrolled in the Systems Analyst program at Sheridan College on my last 

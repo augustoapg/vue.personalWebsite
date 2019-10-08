@@ -13,8 +13,16 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="#resume" v-smooth-scroll="{offset: -70}">
-                      Resume</a>
+                  <a class="nav-link" href="#experiences" v-smooth-scroll="{offset: -70}">
+                      Experiences</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#education" v-smooth-scroll="{offset: -70}">
+                      Education</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#skills" v-smooth-scroll="{offset: -70}">
+                      Skills</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#portfolio" v-smooth-scroll="{offset: -70}">

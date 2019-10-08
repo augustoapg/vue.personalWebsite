@@ -2,7 +2,9 @@
   <div id="app">
     <NavigationBar />
     <AboutMe />
-    <Resume />
+    <Experiences />
+    <Education />
+    <Skills />
     <Portfolio />
     <Contact />
     
@@ -14,7 +16,9 @@
 
 <script>
 import AboutMe from './components/AboutMe.vue'
-import Resume from './components/Resume.vue'
+import Experiences from './components/Experiences.vue'
+import Education from './components/Education.vue'
+import Skills from './components/Skills.vue'
 import Portfolio from './components/Portfolio.vue'
 import Contact from './components/Contact.vue'
 import NavigationBar from './components/NavigationBar.vue'
@@ -24,7 +28,9 @@ export default {
   components: {
     NavigationBar,
     AboutMe,
-    Resume,
+    Experiences,
+    Education,
+    Skills,
     Portfolio,
     Contact
   }
@@ -33,10 +39,10 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Karla', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: black;
   margin-top: 60px;
 }
 
@@ -46,7 +52,7 @@ footer {
 
 h1 {
   margin-top: 2em;
-  text-align: left;
+  text-align: center;
 }
 
 /* Enter and leave animations can use different */
