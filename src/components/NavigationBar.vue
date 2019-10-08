@@ -1,10 +1,10 @@
 <template>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" @click="navigateTo('aboutMe')">Augusto Peres</a>
+      <a class="navbar-brand" href="#aboutMe" v-smooth-scroll="{offset: -70}">Augusto Peres</a>
 
       <!-- Toggle button for small screens -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" 
-              data-target="#navbarsExampleDefault" 
+              data-target=".navbar-collapse" 
               aria-controls="navbarsExampleDefault" aria-expanded="false" 
               aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -13,15 +13,15 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" @click="navigateTo('resume')">
+                  <a class="nav-link" href="#resume" v-smooth-scroll="{offset: -70}">
                       Resume</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" @click="navigateTo('portfolio')">
+                  <a class="nav-link" href="#portfolio" v-smooth-scroll="{offset: -70}">
                       Portfolio</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" @click="navigateTo('contact')">
+                  <a class="nav-link" href="#contact" v-smooth-scroll="{offset: -70}">
                       Contact</a>
               </li>
           </ul>
@@ -41,26 +41,7 @@
 
 <script>
 export default {
-  name: 'NavigationBar',
-  props: {
-    msg: String
-  },
-  data () {
-    return {
-
-    }
-  },
-  methods: {
-    navigateTo: function(page) {
-      // pagesStatus = {
-      //   "resume": false,
-      //   "portfolio": false
-      // }
-
-      // pagesStatus[page] = true
-      this.$emit('navigateTo', page)
-    }
-  }
+  name: 'NavigationBar'
 }
 </script>
 

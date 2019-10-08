@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
+    <div class="container" id="portfolio">
         <h1>Portfolio</h1>
         <div class="card-deck">
             <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/capstone.png" 
+                            src="./../assets/capstone.png" 
                             alt="capstone">
                     <div class="card-body">
                         <h4 class="card-title">Capstone (Spring + Angular)</h4>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/forest.jpg" 
+                            src="./../assets/forest.jpg" 
                             alt="forest-game">
                     <div class="card-body">
                         <h4 class="card-title">Forest (Unity)</h4>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/personalTransaction.jpg" 
+                            src="./../assets/personalTransaction.jpg" 
                             alt="personal-transaction">
                     <div class="card-body">
                         <h4 class="card-title">Personal Transactions</h4>
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/RockPaperScissors.jpg" 
+                            src="./../assets/RockPaperScissors.jpg" 
                             alt="rock-paper-scissor-php">
                     <div class="card-body">
                         <h4 class="card-title">Rock Paper Scissors (PHP)</h4>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/TicTacToe.jpg" 
+                            src="./../assets/TicTacToe.jpg" 
                             alt="tic-tac-toe">
                     <div class="card-body">
                         <h4 class="card-title">Tic Tac Toe</h4>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/RockPaperScissorsJS.jpg" 
+                            src="./../assets/RockPaperScissorsJS.jpg" 
                             alt="rock-paper-scissors-js">
                     <div class="card-body">
                         <h4 class="card-title">Rock Paper Scissors (JavaScript)</h4>
@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/RockPaperScissorsJAVA.jpg" 
+                            src="./../assets/RockPaperScissorsJAVA.jpg" 
                             alt="rock-paper-scissors-java">
                     <div class="card-body">
                         <h4 class="card-title">Rock Paper Scissors (JavaFX)</h4>
@@ -112,7 +112,7 @@
 
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/pickAPair.jpg" 
+                            src="./../assets/pickAPair.jpg" 
                             alt="pick-a-pair">
                     <div class="card-body">
                         <h4 class="card-title">Pick-A-Pair</h4>
@@ -128,7 +128,7 @@
 
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/asteroidsVue.png" 
+                            src="./../assets/asteroidsVue.png" 
                             alt="asteroids-Vue-js">
                     <div class="card-body">
                         <h4 class="card-title">Asteroids (Vue.js)</h4>
@@ -145,7 +145,7 @@
             <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/RockPaperScissors.jpg" 
+                            src="./../assets/RockPaperScissors.jpg" 
                             alt="rock-paper-scissor-php">
                     <div class="card-body">
                         <h4 class="card-title">Rock Paper Scissors (PHP)</h4>
@@ -159,7 +159,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/TicTacToe.jpg" 
+                            src="./../assets/TicTacToe.jpg" 
                             alt="tic-tac-toe">
                     <div class="card-body">
                         <h4 class="card-title">Tic Tac Toe</h4>
@@ -173,7 +173,7 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/RockPaperScissorsJS.jpg" 
+                            src="./../assets/RockPaperScissorsJS.jpg" 
                             alt="rock-paper-scissors-js">
                     <div class="card-body">
                         <h4 class="card-title">Rock Paper Scissors (JavaScript)</h4>
@@ -189,7 +189,7 @@
             <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="../assets/androidNHLTeams.png" 
+                            src="./../assets/androidNHLTeams.png" 
                             alt="nhl-teams-android">
                     <div class="card-body">
                         <h4 class="card-title">NHL Teams (Android)</h4>

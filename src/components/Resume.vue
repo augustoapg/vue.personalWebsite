@@ -1,15 +1,15 @@
 <template>
-    <div class="container">
+    <div class="container" id="resume">
         <h1>Resume</h1>
         <div id="pdf-download">
-            <a href="../assets/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="btn btn-info">
+            <a href="../assets/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="download-resume">
                 Download Resume (PDF)</a>
         </div>
 
         <div class="row">
             <div class="col-md-6">
 
-                <!-- Session for education -->
+                <!-- Section for education -->
                 <h4 class="resume-session-title">Education</h4>
                 <ul class="experiences-skills-list">
                     <li><span  class="activity-title">Systems Analyst Co-op 
@@ -199,10 +199,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .btn-info {
-        margin: 1em 0
-    }
-
     .resume-session-title {
         border-bottom: 3px double grey;
     }
@@ -230,5 +226,27 @@ export default {
 
     .activity-desc li {
         list-style-type: initial;
+    }
+
+    .download-resume {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #2824fd;
+        padding: 1em;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+        margin: 1em 0;
+    }
+
+    .download-resume:hover {
+        background: #4696ff;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
     }
 </style>

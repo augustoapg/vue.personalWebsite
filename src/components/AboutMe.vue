@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        <h1>About Me</h1>
+    <div class="container" id="aboutMe">
+        <h1 class="mx-auto my-0 text-uppercase">Augusto A. P. Goncalez</h1>
         <div class="row about-me">
             <div class="col-md-9">
                 <p class="lead">Currently enrolled in the Systems Analyst program at Sheridan College on my last 
@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="profile-pic col-md-3">
-                <img src="../assets/profilePicture.jpg" alt="my-picture"
+                <img src="./../assets/profilePicture.jpg" alt="my-picture"
                         width="200">
             </div>
         </div>
@@ -29,6 +29,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    #aboutMe {
+        margin-top: 6em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
     .about-me {
         border: 1px solid grey;
         border-radius: 10px;

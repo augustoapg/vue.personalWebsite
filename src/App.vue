@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <NavigationBar @navigateTo="navigateTo" />
-    <transition name="slide-fade">
-      <AboutMe v-if="pageShown === 'aboutMe'"/>
-      <Resume v-if="pageShown === 'resume'" />
-      <Portfolio v-if="pageShown === 'portfolio'" />
-      <Contact v-if="pageShown === 'contact'" />
-    </transition>
+    <NavigationBar />
+    <AboutMe />
+    <Resume />
+    <Portfolio />
+    <Contact />
     
     <footer>
       <a href="https://icons8.com/icon/13930/LinkedIn">Icons provided by Icons8</a>
@@ -29,12 +27,6 @@ export default {
     Resume,
     Portfolio,
     Contact
-  },
-  props: ['pageShown'],
-  methods: {
-    navigateTo: function(page) {
-      this.pageShown = page
-    }
   }
 }
 </script>
