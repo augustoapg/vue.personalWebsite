@@ -27,7 +27,7 @@
                         <h4 class="card-title">Forest (Unity)</h4>
                         <p class="card-text">A simple choose your own 
                             adventure game using Unity and C#</p>
-                        <a href="./forest/"
+                        <a href="./programs/forest/index.html"
                             class="btn btn-primary">Play game</a>
                         <a href="https://github.com/augustoapg/unity.Text101" 
                             target="_blank" class="btn btn-primary">See Code</a>
@@ -41,8 +41,8 @@
                         <h4 class="card-title">Personal Transactions</h4>
                         <p class="card-text">Java application that records and
                             searches for personal transactions</p>
-                        <a href="./personalTransactions.rar" 
-                            download="personalTransactions.rar" 
+                        <a href="./download/personalTransactions.rar" 
+                            download="./download/personalTransactions.rar" 
                             class="btn btn-primary">Download</a>
                         <a href="https://github.com/augustoapg/java.PersonalTransactions" 
                             target="_blank" class="btn btn-primary">See Code</a>
@@ -102,8 +102,8 @@
                         <h4 class="card-title">Rock Paper Scissors (JavaFX)</h4>
                         <p class="card-text">Java application that allows the 
                             user to play Rock Paper Scissors against the computer</p>
-                        <a href="./rockPaperScissors.rar" 
-                            download="personalTransactions.rar" 
+                        <a href="./download/rockPaperScissors.rar" 
+                            download="./download/rockPaperScissors.rar" 
                             class="btn btn-primary">Download</a>
                         <a href="https://github.com/augustoapg/java.RockPaperScissors" 
                             target="_blank" class="btn btn-primary">See Code</a>
@@ -134,7 +134,7 @@
                         <h4 class="card-title">Asteroids (Vue.js)</h4>
                         <p class="card-text">Vue.js webpage that gets information on NASA's 
                             API to show data on near Earth objects</p>
-                        <a href="./asteroids/index.html"
+                        <a href="./programs/asteroids/index.html"
                             class="btn btn-primary">Open Page</a>
                         <a href="https://github.com/augustoapg/vue.asteroids" 
                             target="_blank" class="btn btn-primary">See Code</a>

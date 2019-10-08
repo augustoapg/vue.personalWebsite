@@ -1,5 +1,7 @@
 # personal_website_vue
 
+Simple personal website created using Vue.js and Bootstrap.
+
 ## Project setup
 ```
 npm install
@@ -14,6 +16,8 @@ npm run serve
 ```
 npm run build
 ```
+
+TODO: Fully configure Webpack. Right now, need to copy dowload and programs folder after running the build.
 
 ### Run your tests
 ```

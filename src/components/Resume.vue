@@ -2,7 +2,7 @@
     <div class="container" id="resume">
         <h1>Resume</h1>
         <div id="pdf-download">
-            <a href="../assets/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="download-resume">
+            <a href="./download/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="download-resume">
                 Download Resume (PDF)</a>
         </div>
 
