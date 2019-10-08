@@ -42,11 +42,6 @@ export default {
         text-align: right;
     }
 
-    h1 {
-        margin-top: 2em;
-        text-align: left;
-    }
-
     .profile-pic img {
         border-radius: 20px;
         display: block;

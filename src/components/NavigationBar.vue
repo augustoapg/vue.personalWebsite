@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Augusto Peres</a>
+      <a class="navbar-brand" @click="navigateTo('aboutMe')">Augusto Peres</a>
 
       <!-- Toggle button for small screens -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" 
@@ -13,15 +13,15 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="content/resume.html">
+                  <a class="nav-link" @click="navigateTo('resume')">
                       Resume</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="content/portfolio.html">
+                  <a class="nav-link" @click="navigateTo('portfolio')">
                       Portfolio</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="content/contact.html">
+                  <a class="nav-link" @click="navigateTo('contact')">
                       Contact</a>
               </li>
           </ul>
@@ -44,6 +44,22 @@ export default {
   name: 'NavigationBar',
   props: {
     msg: String
+  },
+  data () {
+    return {
+
+    }
+  },
+  methods: {
+    navigateTo: function(page) {
+      // pagesStatus = {
+      //   "resume": false,
+      //   "portfolio": false
+      // }
+
+      // pagesStatus[page] = true
+      this.$emit('navigateTo', page)
+    }
   }
 }
 </script>
@@ -63,5 +79,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.navbar-brand {
+  color: white !important;
 }
 </style>

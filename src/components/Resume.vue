@@ -1,10 +1,11 @@
 <template>
     <div class="container">
+        <h1>Resume</h1>
         <div id="pdf-download">
-            <h1>Resume</h1>
-            <a href="RESUME_AUGUSTO_PERES.pdf" target="_blank">
+            <a href="../assets/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="btn btn-info">
                 Download Resume (PDF)</a>
         </div>
+
         <div class="row">
             <div class="col-md-6">
 
@@ -198,22 +199,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    #pdf-download {
-        margin-bottom: 20px;
-    }
-
-    #pdf-download h1{
-        display: inline;
-    }
-
-    #pdf-download a {
-        background-color: blue;
-        border: 1px solid black;
-        border-radius: 10px;
-        color: white;
-        float: right;
-        padding: 0.7em;
-        text-decoration: none;
+    .btn-info {
+        margin: 1em 0
     }
 
     .resume-session-title {

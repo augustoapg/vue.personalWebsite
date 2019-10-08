@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <NavigationBar />
-    <AboutMe />
-    <Resume />
-    <Portfolio />
-    <Contact />
+    <NavigationBar @navigateTo="navigateTo" />
+    <transition name="slide-fade">
+      <AboutMe v-if="pageShown === 'aboutMe'"/>
+      <Resume v-if="pageShown === 'resume'" />
+      <Portfolio v-if="pageShown === 'portfolio'" />
+      <Contact v-if="pageShown === 'contact'" />
+    </transition>
+    
     <footer>
       <a href="https://icons8.com/icon/13930/LinkedIn">Icons provided by Icons8</a>
     </footer>
@@ -26,6 +29,12 @@ export default {
     Resume,
     Portfolio,
     Contact
+  },
+  props: ['pageShown'],
+  methods: {
+    navigateTo: function(page) {
+      this.pageShown = page
+    }
   }
 }
 </script>
@@ -41,5 +50,24 @@ export default {
 
 footer {
   margin-top: 3em;
+}
+
+h1 {
+  margin-top: 2em;
+  text-align: left;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all 1.5s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
 }
 </style>
