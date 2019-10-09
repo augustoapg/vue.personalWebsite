@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="education">
-        <h1>Education</h1>
+        <h1><img src="../assets/icons8-graduation-scroll-50.png" alt="education icon">Education</h1>
 
         <div class="row">
             <div class="col-12 education-block">

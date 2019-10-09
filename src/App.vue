@@ -55,6 +55,12 @@ h1 {
   text-align: center;
 }
 
+h1 img {
+    max-width: 1em;
+    margin-left: -1em;
+    margin-right: 0.2em;
+}
+
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
 .slide-fade-enter-active {

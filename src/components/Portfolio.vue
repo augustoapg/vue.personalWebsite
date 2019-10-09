@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="portfolio">
-        <h1>Portfolio</h1>
+        <h1><img src="../assets/icons8-portfolio-32.png" alt="portfolio icon">Portfolio</h1>
         <div class="card-deck">
             <div class="row">
                 <div class="card">

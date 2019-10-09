@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="contact">
-        <h1>Contact</h1>
+        <h1><img src="../assets/icons8-contact-50.png" alt="work icon">Contact</h1>
         <div class="row contact">
             <div class="col-md-6 contact-info">
 

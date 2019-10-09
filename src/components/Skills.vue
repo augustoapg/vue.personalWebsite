@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="skills">
-        <h1>Skills</h1>
+        <h1><img src="../assets/icons8-target-26.png" alt="skills icon">Skills</h1>
 
         <div class="row">
             <div class="col-md-6">
@@ -53,6 +53,10 @@ export default {
 <style scoped>
     h3 {
         text-align: center;
+        background-color: rgb(240, 240, 243);
+    }
+
+    h4 {
         background-color: rgb(240, 240, 243);
     }
 

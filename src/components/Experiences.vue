@@ -88,12 +88,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    h1 img {
-        max-width: 1em;
-        margin-left: -1em;
-        margin-right: 0.2em;
-    }
-
     h3 {
         text-align: center;
         background-color: rgb(240, 240, 243);
