@@ -9,10 +9,11 @@
                             alt="capstone">
                     <div class="card-body">
                         <h4 class="card-title">Capstone (Spring + Angular)</h4>
-                        <p class="card-text">Web application that allows Sheridan 
-                            Bike Hub to manage their Bike Rental program by registering 
-                            customers and keeping track of rentals, as well as managing 
-                            any late returns.</p>
+                        <p class="card-text">This project won 1st place in the Systems 
+                            Analyst 2019 Capstone Project Competition. Web application 
+                            that allows Sheridan Bike Hub to manage their Bike Rental 
+                            program by registering customers and keeping track of rentals,
+                             as well as managing any late returns.</p>
                         <a href="https://github.com/augustoapg/CapstoneJavaBack"
                             class="btn btn-primary">See Code Backend</a>
                         <a href="https://github.com/SamLuo835/CapstoneFront" 
@@ -197,6 +198,17 @@
                                 all the teams in the NHL. The list contains basic information, 
                                 but when clicking on a team, a new Activity page opens with additional information.</p>
                         <a href="https://github.com/augustoapg/android.nhlTeams" 
+                            target="_blank" class="btn btn-primary">See Code</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" 
+                            src="./../assets/thisWebsite.png"
+                            alt="this-website">
+                    <div class="card-body">
+                        <h4 class="card-title">This Website (Vue, Bootstrap)</h4>
+                        <p class="card-text">This website was created using Vue. The styling was done using Bootstrap.</p>
+                        <a href="https://github.com/augustoapg/vue.personalWebsite" 
                             target="_blank" class="btn btn-primary">See Code</a>
                     </div>
                 </div>

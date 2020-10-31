@@ -6,9 +6,9 @@
             <div class="col-12 education-block">
                 <h3>Systems Analyst Co-op Program</h3>
                 <p class="location">Sheridan College</p>
-                <p class="date">(01/2017 - present)</p>
+                <p class="date">(01/2017 - 12/2019)</p>
                 <p class="extra-details">3.94 GPA</p>
-                <p class="extra-details">Expected graduation in 12/2019</p>
+                <p class="extra-details">Won 1st place in Capstone Competition</p>
             </div>
 
             <div class="col-12 education-block">

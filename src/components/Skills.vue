@@ -6,17 +6,16 @@
             <div class="col-md-6">
                 <h4 class="resume-session-title">Development Skills</h4>
                 <ul class="activity-desc">
-                    <li>HTML, CSS, JavaScript, Bootstrap</li>
-                    <li>Angular, Vue.js, jQuery, jQuery Mobile, NodeJS</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Angular, Vue.js, NodeJS</li>
                     <li>JavaSE, J2EE, Spring Boot</li>
-                    <li>Python, Tkinter, matplotlib</li>
+                    <li>Python, Tkinter</li>
                     <li>GoLang</li>
                     <li>C#, .NET Framework, ASP.NET</li>
                     <li>SQL, MySQL, SQL Server, PostgreSQL, MongoDB</li>
                     <li>Android development using JAVA</li>
-                    <li>PHP, Wordpress</li>
+                    <li>PHP</li>
                     <li>REST, JSON, XML, AJAX</li>
-                    <li>Cordova</li>
                 </ul>
             </div>
 

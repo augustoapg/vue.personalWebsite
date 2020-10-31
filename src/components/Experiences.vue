@@ -8,12 +8,26 @@
 
         <div class="row">
             <div class="col-12">
+                <h3>Developer Associate</h3>
+                <p class="location">TD</p>
+                <p class="date">(01/2020 - present)</p>
+                <ul class="activity-desc">
+                    <li>Working in a rotational program, being exposed to different areas withing the company</li>
+                    <li>2 rotations in Deposit Account System</li>
+                    <li>Develop tools in Python, JCL and SAS</li>
+                    <li>Assist with package handling, helping developers to transfer their changes from dev to production environments using Endevor and ServiceNow</li>
+                    <li>Develop features for TD Gigs using Angular, NodeJS and MySQL</li>
+                </ul>
+            </div>
+            <div class="col-12">
                 <h3>Python Developer Research Assistant</h3>
                 <p class="location">Sheridan College</p>
-                <p class="date">(09/2019 - present)</p>
+                <p class="date">(09/2019 - 12/2019)</p>
                 <ul class="activity-desc">
-                    <li>Responsible for assisting in the design and development of a Dashboard for data visualization in real time</li>
-                    <li>Developing dashboard using Python with the GUI created with Tkinter.</li>
+                    <li>Responsible for the design and development of a Dashboard for data visualization in real time</li>
+                    <li>Develop using Python with Tkinter</li>
+                    <li>Create a native Android mobile app version</li>
+                    <li>Data stored and retrieved from a MySQL database</li>
                 </ul>
             </div>
             <div class="col-12">
@@ -22,8 +36,8 @@
                 <p class="date">(05/2019 - 08/2019)</p>
                 <p class="date">(09/2018 - 12/2018)</p>
                 <ul class="activity-desc">
-                    <li>Worked in an Agile based team for the Ontario Public Service intranet, which is used by around 60,000 public employees.</li>
-                    <li>Implemented new features and fixed bugs for most components of the website, which included front-end created in Vue, back-end using PHP with a customized Wordpress, and an API created using Go</li>
+                    <li>Worked in an Agile based team for the Ontario Public Service intranet</li>
+                    <li>Implemented new features and assisted for most components of the website, which included front-end created in Vue, back-end using PHP with customized Wordpress, and an API created using Go</li>
                     <li>Worked with Docker and Vagrant for creating and debugging code in a local environment</li>
                     <li>Developed automated test scripts using Selenium, Codeception and Bamboo</li>
                 </ul>
@@ -33,9 +47,8 @@
                 <p class="location">HitGrab Game Labs </p>
                 <p class="date">(01/2018 - 04/2018)</p>
                 <ul class="activity-desc">
-                    <li>Developed front and back end of a multiplayer word game prototype using JavaScript, jQuery, NodeJS and Socket.io.</li>
-                    <li>Organized scheduled tests and properly documented the results in order to improve the prototype based on the feedback provided.</li>
-                    <li>Responsible for organizing the project and delivering the results within the due date.</li>
+                    <li>Develop a multiplayer word game prototype</li>
+                    <li>Front-end written with JavaScript and jQuery, back-end with NodeJS and MongoDB</li>
                 </ul>
             </div>
             <div class="col-12">
@@ -46,9 +59,9 @@
                     <li>Plan, prepare and lead one hour sessions 
                                 weekly on computer math where the most 
                                 important topics given in class are 
-                                revisited and practiced.</li>
+                                revisited and practiced</li>
                     <li>Encourage class’s participation and guide 
-                        the students towards the solution.</li>
+                        the students towards the solution</li>
                 </ul>
             </div>
             <div class="col-12">
@@ -65,12 +78,12 @@
                         it easier for the employees to input the
                         production data, as well as increasing the 
                         data reliability and facilitating the 
-                        analysis.</li>
+                        analysis</li>
                     <li>Conducted and participated on 5S events to 
                         organize and clean properly several work 
-                        stations.</li>
+                        stations</li>
                     <li>Presented to the company once a week advice 
-                        and news about health and safety.</li>
+                        and news about health and safety</li>
                 </ul>
             </div>
         </div>

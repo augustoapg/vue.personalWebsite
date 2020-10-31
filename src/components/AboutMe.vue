@@ -3,11 +3,8 @@
         <h1>Augusto A. P. Goncalez</h1>
         <div class="row about-me">
             <div class="col-md-9">
-                <p class="lead">Currently enrolled in the Systems Analyst program at Sheridan College on my last 
-                    term with excellent performance (GPA 3.94). Also working part time as a Python Developer 
-                    Research Assistant at Sheridan College. Experience working as a developer and eager to learn. 
-                    Presently seeking a full-time position after graduation where I can keep improving my 
-                    skills and develop my career.
+                <p class="lead">Currently working as a Developer Associate at TD. Graduated in the Systems Analyst program 
+                    at Sheridan College with high honors (GPA 3.94). Experience working as a developer and eager to learn.
                 </p>
             </div>
             <div class="profile-pic col-md-3">
