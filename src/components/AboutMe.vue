@@ -12,6 +12,10 @@
                         width="200">
             </div>
         </div>
+        <div class="col-12" id="pdf-download">
+            <a href="./download/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="download-resume">
+                Download Resume (PDF)</a>
+        </div>
     </div>
 </template>
 
@@ -54,5 +58,29 @@ export default {
         max-height: 200px;
         max-width: 200px;
         width: 100%;
+    }
+
+    .download-resume {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #4441eb;
+        padding: 0.7em;
+        border-radius: 30px;
+        display: block;
+        border: none;
+        transition: all 0.4s ease 0s;
+        margin: 1.5em auto;
+        width: 17em;
+        text-align: center;
+    }
+
+    .download-resume:hover {
+        background: #4696ff;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
     }
 </style>

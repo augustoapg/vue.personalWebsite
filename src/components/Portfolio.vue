@@ -22,15 +22,12 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="./../assets/forest.jpg" 
-                            alt="forest-game">
+                            src="./../assets/thisWebsite.png"
+                            alt="this-website">
                     <div class="card-body">
-                        <h4 class="card-title">Forest (Unity)</h4>
-                        <p class="card-text">A simple choose your own 
-                            adventure game using Unity and C#</p>
-                        <a href="./programs/forest/index.html"
-                            class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/unity.Text101" 
+                        <h4 class="card-title">This Website (Vue, Bootstrap)</h4>
+                        <p class="card-text">This website was created using Vue. The styling was done using Bootstrap.</p>
+                        <a href="https://github.com/augustoapg/vue.personalWebsite" 
                             target="_blank" class="btn btn-primary">See Code</a>
                     </div>
                 </div>
@@ -53,16 +50,16 @@
             <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="./../assets/RockPaperScissors.jpg" 
-                            alt="rock-paper-scissor-php">
+                            src="./../assets/asteroidsVue.png" 
+                            alt="asteroids-Vue-js">
                     <div class="card-body">
-                        <h4 class="card-title">Rock Paper Scissors (PHP)</h4>
-                        <p class="card-text">Webpage in PHP that allows the user
-                            to play Rock Paper Scissor</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign6/index.php" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/php.RockPaperScissors" 
+                        <h4 class="card-title">Asteroids (Vue.js)</h4>
+                        <p class="card-text">Vue.js webpage that gets information on NASA's 
+                            API to show data on near Earth objects</p>
+                        <a href="https://github.com/augustoapg/vue.asteroids" 
                             target="_blank" class="btn btn-primary">See Code</a>
+                        <a href="./programs/asteroids/index.html"
+                            class="btn btn-primary">Open Page</a>
                     </div>
                 </div>
                 <div class="card">
@@ -126,18 +123,17 @@
                             target="_blank" class="btn btn-primary">See Code</a>
                     </div>
                 </div>
-
                 <div class="card">
                     <img class="card-img-top" 
-                            src="./../assets/asteroidsVue.png" 
-                            alt="asteroids-Vue-js">
+                            src="./../assets/RockPaperScissors.jpg" 
+                            alt="rock-paper-scissor-php">
                     <div class="card-body">
-                        <h4 class="card-title">Asteroids (Vue.js)</h4>
-                        <p class="card-text">Vue.js webpage that gets information on NASA's 
-                            API to show data on near Earth objects</p>
-                        <a href="./programs/asteroids/index.html"
-                            class="btn btn-primary">Open Page</a>
-                        <a href="https://github.com/augustoapg/vue.asteroids" 
+                        <h4 class="card-title">Rock Paper Scissors (PHP)</h4>
+                        <p class="card-text">Webpage in PHP that allows the user
+                            to play Rock Paper Scissor</p>
+                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign6/index.php" 
+                            target="_blank" class="btn btn-primary">Play game</a>
+                        <a href="https://github.com/augustoapg/php.RockPaperScissors" 
                             target="_blank" class="btn btn-primary">See Code</a>
                     </div>
                 </div>
@@ -174,22 +170,6 @@
                 </div>
                 <div class="card">
                     <img class="card-img-top" 
-                            src="./../assets/RockPaperScissorsJS.jpg" 
-                            alt="rock-paper-scissors-js">
-                    <div class="card-body">
-                        <h4 class="card-title">Rock Paper Scissors (JavaScript)</h4>
-                        <p class="card-text">Webpage coded with JavaScript that
-                            allows the user to play Rock Paper Scissors</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign3/index.html" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/js.RockPaperScissors" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card">
-                    <img class="card-img-top" 
                             src="./../assets/androidNHLTeams.png" 
                             alt="nhl-teams-android">
                     <div class="card-body">
@@ -201,14 +181,19 @@
                             target="_blank" class="btn btn-primary">See Code</a>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="card">
                     <img class="card-img-top" 
-                            src="./../assets/thisWebsite.png"
-                            alt="this-website">
+                            src="./../assets/forest.jpg" 
+                            alt="forest-game">
                     <div class="card-body">
-                        <h4 class="card-title">This Website (Vue, Bootstrap)</h4>
-                        <p class="card-text">This website was created using Vue. The styling was done using Bootstrap.</p>
-                        <a href="https://github.com/augustoapg/vue.personalWebsite" 
+                        <h4 class="card-title">Forest (Unity)</h4>
+                        <p class="card-text">A simple choose your own 
+                            adventure game using Unity and C#</p>
+                        <a href="./programs/forest/index.html"
+                            class="btn btn-primary">Play game</a>
+                        <a href="https://github.com/augustoapg/unity.Text101" 
                             target="_blank" class="btn btn-primary">See Code</a>
                     </div>
                 </div>

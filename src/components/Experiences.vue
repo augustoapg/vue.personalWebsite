@@ -1,10 +1,6 @@
 <template>
     <div class="container" id="experiences">
             <h1><img src="../assets/icons8-work-64.png" alt="work icon">Experiences</h1>
-        <div class="col-12" id="pdf-download">
-            <a href="./download/RESUME_AUGUSTO_PERES.pdf" target="_blank" class="download-resume">
-                Download Resume (PDF)</a>
-        </div>
 
         <div class="row">
             <div class="col-12">
@@ -12,11 +8,21 @@
                 <p class="location">TD</p>
                 <p class="date">(01/2020 - present)</p>
                 <ul class="activity-desc">
-                    <li>Working in a rotational program, being exposed to different areas withing the company</li>
-                    <li>2 rotations in Deposit Account System</li>
-                    <li>Develop tools in Python, JCL and SAS</li>
-                    <li>Assist with package handling, helping developers to transfer their changes from dev to production environments using Endevor and ServiceNow</li>
-                    <li>Develop features for TD Gigs using Angular, NodeJS and MySQL</li>
+                    <li><b>Central Innovation Agency (CIA)</b> - (01/2021 - present)</li>
+                    <ul class="rotation">
+                        <li>Supported and created new features for TD Gigs, an internal platform for short term assignments</li>
+                        <li>Developed scripts for spreadsheet automation</li>
+                        <li>Implemented POCs related to Distribution Lists listed in Active Directory (AD)</li>
+                        <li>Participated and helped organize One Day Builds, which were full days of coding to create a POC with business value</li>
+                        <li><i>Technologies Used:</i> Angular, NodeJS, Python, MySQL, Git</li>
+                    </ul>
+                    <li><b>Deposit Accounting Systems (DAS)</b> - (01/2020 - 12/2020)</li>
+                    <ul class="rotation">
+                        <li>Wrote scripts for data retrieval and automation</li>
+                        <li>Assisted with the suport of batch jobs</li>
+                        <li>Responsible for package handling, helping developers to transfer their changes from dev to production environments using Endevor and ServiceNow</li>
+                        <li><i>Technologies Used:</i> Python, VBA, SAS, JCL</li>
+                    </ul>
                 </ul>
             </div>
             <div class="col-12">
@@ -25,9 +31,8 @@
                 <p class="date">(09/2019 - 12/2019)</p>
                 <ul class="activity-desc">
                     <li>Responsible for the design and development of a Dashboard for data visualization in real time</li>
-                    <li>Develop using Python with Tkinter</li>
-                    <li>Create a native Android mobile app version</li>
-                    <li>Data stored and retrieved from a MySQL database</li>
+                    <li>Create a mobile app version of the Dashboard</li>
+                    <li><i>Technologies Used:</i> Python, Tkinter, MySQL, Android (Java)</li>
                 </ul>
             </div>
             <div class="col-12">
@@ -37,9 +42,9 @@
                 <p class="date">(09/2018 - 12/2018)</p>
                 <ul class="activity-desc">
                     <li>Worked in an Agile based team for the Ontario Public Service intranet</li>
-                    <li>Implemented new features and assisted for most components of the website, which included front-end created in Vue, back-end using PHP with customized Wordpress, and an API created using Go</li>
-                    <li>Worked with Docker and Vagrant for creating and debugging code in a local environment</li>
-                    <li>Developed automated test scripts using Selenium, Codeception and Bamboo</li>
+                    <li>Implemented new features and assisted for most components of the website</li>
+                    <li>Developed automated test scripts</li>
+                    <li><i>Technologies Used:</i> Vue, Go, PHP, Selenium, Bamboo, Docker, Vagrant</li>
                 </ul>
             </div>
             <div class="col-12">
@@ -48,7 +53,7 @@
                 <p class="date">(01/2018 - 04/2018)</p>
                 <ul class="activity-desc">
                     <li>Develop a multiplayer word game prototype</li>
-                    <li>Front-end written with JavaScript and jQuery, back-end with NodeJS and MongoDB</li>
+                    <li><i>Technologies Used:</i> JavaScript, jQuery, NodeJS, MongoDB</li>
                 </ul>
             </div>
             <div class="col-12">
@@ -73,8 +78,7 @@
                                 data flux for the company's scrap, reducing 
                                 the time needed for analysis and increasing 
                                 the data reliability</li>
-                    <li>Interviewed the machine operators in order 
-                        to develop an Excel program with VBA to make
+                    <li>Developed an Excel program with VBA to make
                         it easier for the employees to input the
                         production data, as well as increasing the 
                         data reliability and facilitating the 
@@ -115,27 +119,7 @@ export default {
         margin: 0;
     }
 
-    .download-resume {
-        color: #fff !important;
-        text-transform: uppercase;
-        text-decoration: none;
-        background: #4441eb;
-        padding: 0.7em;
-        border-radius: 30px;
-        display: block;
-        border: none;
-        transition: all 0.4s ease 0s;
-        margin: 1.5em auto;
-        width: 17em;
-        text-align: center;
-    }
-
-    .download-resume:hover {
-        background: #4696ff;
-        letter-spacing: 1px;
-        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-        transition: all 0.4s ease 0s;
+    .rotation, .activity-desc {
+        margin: 1em 0;
     }
 </style>
