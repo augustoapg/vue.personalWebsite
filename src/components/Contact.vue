@@ -1,29 +1,25 @@
 <template>
     <div class="container" id="contact">
         <h1><img src="../assets/icons8-contact-50.png" alt="work icon">Contact</h1>
-        <div class="row contact">
-            <div class="col-md-6 contact-info">
-
-                <p><img src="../assets/icons8-Email-70.png" 
-                        alt="email-icon">
+        <div class="contact">
+            <div class="row">
+                <div class="col-md-12 contact-info">
                     <a href="mailto:augustoapg@gmail.com" target="_top">
-                        augustoapg@gmail.com</a><p>
-
-                <p><img src="../assets/icons8-Cell Phone-70.png" 
-                        alt="email-icon">(289)993-8773</p>
-
-
+                        augustoapg@gmail.com</a>
+                </div>
             </div>
-            <div class="col-md-6 social-logos">
-                <ul>
-                    <li><a href="https://github.com/augustoapg" target="_blank">
-                            <img src="../assets/github-logo.png" 
-                                    alt="github-logo"></a></li>
-                    <li><a href="https://www.linkedin.com/in/augustoapg/" 
-                            target="_blank">
-                            <img src="../assets/linkedin-logo.png" 
-                                    alt="linkedin-logo"></a></li>
-                </ul>
+            <div class="row">
+                <div class="col-md-12 social-logos">
+                    <ul>
+                        <li><a href="https://github.com/augustoapg" target="_blank">
+                                <img src="../assets/github-logo.png" 
+                                        alt="github-logo"></a></li>
+                        <li><a href="https://www.linkedin.com/in/augustoapg/" 
+                                target="_blank">
+                                <img src="../assets/linkedin-logo.png" 
+                                        alt="linkedin-logo"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -47,10 +43,11 @@ export default {
         vertical-align: middle;
     }
 
-    .contact-info p {
-        vertical-align: middle;
+    .contact-info p, .contact-info a {
+        display: block;
         font-size: 1.1em;
-        width: 90%;
+        text-align: center;
+        width: 100%;
     }
 
     .contact-info img {
@@ -63,10 +60,17 @@ export default {
         max-height: 100px;
         max-width: 200px;
         width: auto;
+        margin: auto;
 
+    }
+
+    .social-logos ul {
+        padding: 0;
+        margin-top: 1em;
     }
 
     .social-logos li {
         list-style-type: none;
+        margin: 1em 0;
     }
 </style>

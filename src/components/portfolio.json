@@ -1,0 +1,231 @@
+[
+    {
+        "title": "Capstone Project",
+        "image": {
+            "alt": "Capstone Project Main Page",
+            "src": "capstone"
+        },
+        "body": "This project won 1st place in the Systems Analyst 2019 Capstone Project Competition. Web application that allows Sheridan Bike Hub to manage their Bike Rental program by registering customers and keeping track of rentals, as well as managing any late returns.",
+        "tags": ["Spring Boot", "Angular", "PostgreSQL"],
+        "links": [
+            {
+                "text": "See Code Backend",
+                "href": "https://github.com/augustoapg/CapstoneJavaBack"
+            },
+            {
+                "text": "See Code Frontend",
+                "href": "https://github.com/SamLuo835/CapstoneFront"
+            }
+        ]
+    },
+    {
+        "title": "Personal Website",
+        "image": {
+            "alt": "Personal Website Main Page",
+            "src": "thisWebsite"
+        },
+        "body": "Simple website to display my experience, portfolio and contact information.",
+        "tags": ["Vue", "Bootstrap"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/vue.personalWebsite"
+            }
+        ]
+    },
+    {
+        "title": "Tech Events Website",
+        "image": {
+            "alt": "Tech Events Website Main Page",
+            "src": "techEventsPage"
+        },
+        "body": "Website that allows users to login, create Tech Events and search this Events. Each Event has a page that shows related Sessions. Users can add new Sessions and vote in the Sessions they like. Website created as part of the ng-fundamentals course in PluralSight.",
+        "tags": ["Angular", "Bootstrap"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/ng-fundamentals"
+            }
+        ]
+    },
+    {
+        "title": "Checkers",
+        "image": {
+            "alt": "Checkers Python Game",
+            "src": "checkers"
+        },
+        "body": "Game that allows user to play Checkers against an AI.",
+        "tags": ["Python"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/python.checkers"
+            }
+        ]
+    },
+    {
+        "title": "Asteroids",
+        "image": {
+            "alt": "Asteroids Project Main Page",
+            "src": "asteroidsVue"
+        },
+        "body": "webpage that gets information on NASA's API to show data on near Earth objects",
+        "tags": ["Vue"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/vue.asteroids"
+            },
+            {
+                "text": "Open Page",
+                "href": "./programs/asteroids/index.html"
+            }
+        ]
+    },
+    {
+        "title": "NHL Teams App",
+        "image": {
+            "alt": "NHL Teams App Main Page",
+            "src": "androidNHLTeams"
+        },
+        "body": "App that gets information from an API to display a list of all the teams in the NHL. The list contains basic information, but when clicking on a team, a new Activity page opens with additional information.",
+        "tags": ["Android", "Java"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/android.nhlTeams"
+            }
+        ]
+    },
+    {
+        "title": "Personal Transactions",
+        "image": {
+            "alt": "Personal Transaction Software",
+            "src": "personalTransaction"
+        },
+        "body": "Java application that allows user to record transactions and then search for the transactions saved. Records are saved as text files.",
+        "tags": ["Java", "JavaFX"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/java.PersonalTransactions"
+            }
+        ]
+    },
+    {
+        "title": "Tic Tac Toe",
+        "image": {
+            "alt": "Tic Tac Toe game",
+            "src": "TicTacToe"
+        },
+        "body": "Webpage coded with JavaScript that allows the user to play tic-tac-toe",
+        "tags": ["JavaScript"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/js.TicTacToe"
+            },
+            {
+                "text": "Play Game",
+                "href": "http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign1/index.html"
+            }
+        ]
+    },
+    {
+        "title": "Pick-a-Pair",
+        "image": {
+            "alt": "Pick a Pair Game Main Page",
+            "src": "pickAPair"
+        },
+        "body": "Webpage coded using JavaScript allowing the user to play the game Pick-A-Pair choosing between 3 different board sizes",
+        "tags": ["JavaScript"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/js.PickAPair"
+            },
+            {
+                "text": "Play Game",
+                "href": "http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign4/index.html"
+            }
+        ]
+    },
+    {
+        "title": "Rock Paper Scissors (JS)",
+        "image": {
+            "alt": "Rock Paper Scissors JavaScript Game",
+            "src": "RockPaperScissorsJS"
+        },
+        "body": "Webpage coded with JavaScript that allows the user to play Rock Paper Scissor",
+        "tags": ["JavaScript"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/js.RockPaperScissors"
+            },
+            {
+                "text": "Play Game",
+                "href": "http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign3/index.html"
+            }
+        ]
+    },
+    {
+        "title": "Rock Paper Scissors (Java)",
+        "image": {
+            "alt": "Rock Paper Scissors JavaScript Game",
+            "src": "RockPaperScissorsJS"
+        },
+        "body": "Java application that allows the user to play Rock Paper Scissors against the computer",
+        "tags": ["Java", "JavaFX"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/java.RockPaperScissors"
+            }
+        ],
+        "download": [
+            {
+                "text": "Download Game",
+                "download": "./download/rockPaperScissors.rar"
+            }
+        ]
+    },
+    {
+        "title": "Rock Paper Scissors (PHP)",
+        "image": {
+            "alt": "Rock Paper Scissors PHP Game",
+            "src": "RockPaperScissors"
+        },
+        "body": "Webpage in PHP that allows the user to play Rock Paper Scissor",
+        "tags": ["PHP"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/php.RockPaperScissors"
+            },
+            {
+                "text": "Play Game",
+                "href": "http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign6/index.php"
+            }
+        ]
+    },
+    {
+        "title": "Forest Game",
+        "image": {
+            "alt": "Forest Game Main Page",
+            "src": "forest"
+        },
+        "body": "A simple \"choose your own adventure\" horror game where the user presses specific keys to make decisions.",
+        "tags": ["C#", "Unity"],
+        "links": [
+            {
+                "text": "See Code",
+                "href": "https://github.com/augustoapg/unity.Text101"
+            },
+            {
+                "text": "Play Game",
+                "href": "./programs/forest/index.html"
+            }
+        ]
+    }
+]

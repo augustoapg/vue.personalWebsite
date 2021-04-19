@@ -1,200 +1,25 @@
 <template>
     <div class="container" id="portfolio">
         <h1><img src="../assets/icons8-portfolio-32.png" alt="portfolio icon">Portfolio</h1>
-        <div class="card-deck">
-            <div class="row">
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/capstone.png" 
-                            alt="capstone">
-                    <div class="card-body">
-                        <h4 class="card-title">Capstone (Spring + Angular)</h4>
-                        <p class="card-text">This project won 1st place in the Systems 
-                            Analyst 2019 Capstone Project Competition. Web application 
-                            that allows Sheridan Bike Hub to manage their Bike Rental 
-                            program by registering customers and keeping track of rentals,
-                             as well as managing any late returns.</p>
-                        <a href="https://github.com/augustoapg/CapstoneJavaBack"
-                            class="btn btn-primary">See Code Backend</a>
-                        <a href="https://github.com/SamLuo835/CapstoneFront" 
-                            target="_blank" class="btn btn-primary">See Code Frontend</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/thisWebsite.png"
-                            alt="this-website">
-                    <div class="card-body">
-                        <h4 class="card-title">This Website (Vue, Bootstrap)</h4>
-                        <p class="card-text">This website was created using Vue. The styling was done using Bootstrap.</p>
-                        <a href="https://github.com/augustoapg/vue.personalWebsite" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/personalTransaction.jpg" 
-                            alt="personal-transaction">
-                    <div class="card-body">
-                        <h4 class="card-title">Personal Transactions</h4>
-                        <p class="card-text">Java application that records and
-                            searches for personal transactions</p>
-                        <a href="./download/personalTransactions.rar" 
-                            download="./download/personalTransactions.rar" 
-                            class="btn btn-primary">Download</a>
-                        <a href="https://github.com/augustoapg/java.PersonalTransactions" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/asteroidsVue.png" 
-                            alt="asteroids-Vue-js">
-                    <div class="card-body">
-                        <h4 class="card-title">Asteroids (Vue.js)</h4>
-                        <p class="card-text">Vue.js webpage that gets information on NASA's 
-                            API to show data on near Earth objects</p>
-                        <a href="https://github.com/augustoapg/vue.asteroids" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                        <a href="./programs/asteroids/index.html"
-                            class="btn btn-primary">Open Page</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/TicTacToe.jpg" 
-                            alt="tic-tac-toe">
-                    <div class="card-body">
-                        <h4 class="card-title">Tic Tac Toe</h4>
-                        <p class="card-text">Webpage coded with JavaScript that
-                            allows the user to play tic-tac-toe</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign1/index.html" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/js.TicTacToe" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/RockPaperScissorsJS.jpg" 
-                            alt="rock-paper-scissors-js">
-                    <div class="card-body">
-                        <h4 class="card-title">Rock Paper Scissors (JavaScript)</h4>
-                        <p class="card-text">Webpage coded with JavaScript that
-                            allows the user to play Rock Paper Scissors</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign3/index.html" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/js.RockPaperScissors" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/RockPaperScissorsJAVA.jpg" 
-                            alt="rock-paper-scissors-java">
-                    <div class="card-body">
-                        <h4 class="card-title">Rock Paper Scissors (JavaFX)</h4>
-                        <p class="card-text">Java application that allows the 
-                            user to play Rock Paper Scissors against the computer</p>
-                        <a href="./download/rockPaperScissors.rar" 
-                            download="./download/rockPaperScissors.rar" 
-                            class="btn btn-primary">Download</a>
-                        <a href="https://github.com/augustoapg/java.RockPaperScissors" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/pickAPair.jpg" 
-                            alt="pick-a-pair">
-                    <div class="card-body">
-                        <h4 class="card-title">Pick-A-Pair</h4>
-                        <p class="card-text">Webpage coded using JavaScript
-                            allowing the user to play the game Pick-A-Pair choosing
-                            between 3 different board sizes</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign4/index.html" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/js.PickAPair" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/RockPaperScissors.jpg" 
-                            alt="rock-paper-scissor-php">
-                    <div class="card-body">
-                        <h4 class="card-title">Rock Paper Scissors (PHP)</h4>
-                        <p class="card-text">Webpage in PHP that allows the user
-                            to play Rock Paper Scissor</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign6/index.php" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/php.RockPaperScissors" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
+        <div class="portfolio-item row" v-for="item in portifolioItems" :key="item.title">
+            <div class="portfolio-img col-md-4 col-sm-12">
+                <img class="card-img-top" :src="getImgUrl(item.image.src)" :alt="item.image.alt">
             </div>
-
-            <div class="row">
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/RockPaperScissors.jpg" 
-                            alt="rock-paper-scissor-php">
-                    <div class="card-body">
-                        <h4 class="card-title">Rock Paper Scissors (PHP)</h4>
-                        <p class="card-text">Webpage in PHP that allows the user
-                            to play Rock Paper Scissor</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign6/index.php" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/php.RockPaperScissors" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
+            <div class="col-md-8 col-sm-12">
+                <h4 class="card-title">{{item.title}}</h4>
+                <div class="portfolio-middle">
+                    <p class="card-text">{{item.body}}</p>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/TicTacToe.jpg" 
-                            alt="tic-tac-toe">
-                    <div class="card-body">
-                        <h4 class="card-title">Tic Tac Toe</h4>
-                        <p class="card-text">Webpage coded with JavaScript that
-                            allows the user to play tic-tac-toe</p>
-                        <a href="http://araujope.dev.fast.sheridanc.on.ca/syst10199/assign1/index.html" 
-                            target="_blank" class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/js.TicTacToe" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
+                <div class="tags">
+                    <span v-for="tag in item.tags" :key="tag" class="tag">#{{tag}}</span>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/androidNHLTeams.png" 
-                            alt="nhl-teams-android">
-                    <div class="card-body">
-                        <h4 class="card-title">NHL Teams (Android)</h4>
-                        <p class="card-text">App that gets information from an API to display a list of
-                                all the teams in the NHL. The list contains basic information, 
-                                but when clicking on a team, a new Activity page opens with additional information.</p>
-                        <a href="https://github.com/augustoapg/android.nhlTeams" 
-                            target="_blank" class="btn btn-primary">See Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="card">
-                    <img class="card-img-top" 
-                            src="./../assets/forest.jpg" 
-                            alt="forest-game">
-                    <div class="card-body">
-                        <h4 class="card-title">Forest (Unity)</h4>
-                        <p class="card-text">A simple choose your own 
-                            adventure game using Unity and C#</p>
-                        <a href="./programs/forest/index.html"
-                            class="btn btn-primary">Play game</a>
-                        <a href="https://github.com/augustoapg/unity.Text101" 
-                            target="_blank" class="btn btn-primary">See Code</a>
+                <div class="portfolio-buttons">
+                    <a v-for="link in item.links" :key="link.text" :href="link.href"
+                        target="_blank">{{link.text}}</a>
+                    <div v-if="item.download">
+                        <a v-for="download in item.download" :key="download.text" :href="download.download" :download="download.download"
+                            target="_blank">{{download.text}}</a>
                     </div>
                 </div>
             </div>
@@ -203,19 +28,50 @@
 </template>
 
 <script>
+import portfolio from './portfolio.json'
+
 export default {
-  name: 'Portfolio',
-  props: {
-    
-  }
+    name: 'Portfolio',
+    data: function() {
+        return {
+            portifolioItems: portfolio
+        }
+    },
+    props: {
+        
+    },
+    methods: {
+        getImgUrl(img) {
+            try {
+                let images = require.context('./../assets/', false, /\.png$/)
+                return images('./' + img + ".png")
+            }
+            catch {
+                let images = require.context('./../assets/', false, /\.jpg$/)
+                return images('./' + img + ".jpg")
+            }
+        }
+    }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .portfolio-item {
+        margin: 2em 0;
+        padding: 1em 0.5em;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+    .portfolio-img {
+        text-align: center;
+    }
+
     .card-img-top {
-        max-height: 300px;
-        max-width: 400px;
+        max-height: 15em;
+        height: 100%;
+        width: auto;
+        text-align: center;
     }
 
     .row .card {
@@ -225,5 +81,54 @@ export default {
 
     .btn.btn-primary {
         margin-top: 0.2em;
+        white-space: normal;
+    }
+
+    .card-title {
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .tag {
+        display: inline-block;
+        margin: 0.7em 0.8em;
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+
+    .tags .tag:first-child {
+        margin-left: 0;
+    }
+
+    .portfolio-buttons {
+        width: 100%;
+        
+    }
+
+    .portfolio-buttons a {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    
+
+    @media only screen and (min-width: 768px) {
+        .card-title {
+            text-align: left;
+        }
+
+        .portfolio-buttons a {
+            text-align: left;
+        }
+
+        .card-img-top {
+            max-height: 13em;
+            width: auto;
+            max-width: 100%;
+            vertical-align: middle;
+        }
     }
 </style>
