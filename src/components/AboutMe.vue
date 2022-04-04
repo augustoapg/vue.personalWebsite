@@ -4,7 +4,7 @@
 			<div class="hello-text">
 				<h1>Hello!</h1>
 				<h1>I am Augusto Peres</h1>
-				<h2>I am an Associate Developer at TD Bank</h2>
+				<h2>I am a Software Engineer at TD Bank</h2>
 				<h3 class="scroll-message">
 					Scroll down to find out more about me
 				</h3>
